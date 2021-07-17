@@ -21,24 +21,41 @@ The most important question arises is how we can predict customer churn? The bas
 
 We have a bank data sheet consisting of 11 parameters. Unique Id of entries is CustomerId. Then we need to understand the types of variables we have to work with. 
 Quantitative Explanatory Variables:
+
 •	CreditScore
+
 •	Age
+
 •	Tenure
+
 •	Balance
+
 •	NumOfProducts
+
 •	EstimatedSalary
+
+
 Categorical Explanatory Variables:
+
 •	Occupation
+
 •	Location
+
 •	Gender
+
 •	HasCrCard
+
 •	IsActiveMember
  
 Response Variables:  Exited
+
 We scan the data for any missing field. Some graphs are plotted for better understanding of data. Data visualization is the act of taking information (data) and placing it into a visual context, such as a map or graph. Data visualizations make big and small data easier for the human brain to understand, and visualization also makes it easier to detect patterns, trends, and outliers in groups of data.
+
 Then test for chi-square test of independence. The Chi Square statistic is commonly used for testing relationships between categorical variables. The null hypothesis of the Chi-Square test is that no relationship exists on the categorical variables in the population; they are independent.
 After running analysis for categorical variables test for relations between quantitative variables. Logistic regression is a predictive analysis used to describe data. Test for confounding. 
+
 For better understanding of the relation we visualize the data using machine learning algorithms- decision trees and random forests. Decision Trees are a type of Supervised Machine Learning where the data is continuously split according to a certain parameter. Random Forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.
+
 To confirm the results of random forest use lasso regression. Lasso regression is a type of linear regression that uses shrinkage. Shrinkage is where data values are shrunk towards a central point, like the mean.  K-means clustering is used to test the co-relation between the clusters (data). 
 
 
