@@ -20,7 +20,8 @@ The most important question arises is how we can predict customer churn? The bas
 ### Working
 
 We have a bank data sheet consisting of 11 parameters. Unique Id of entries is CustomerId. Then we need to understand the types of variables we have to work with. 
-Quantitative Explanatory Variables:
+
+##### Quantitative Explanatory Variables:
 
 •	CreditScore
 
@@ -35,7 +36,7 @@ Quantitative Explanatory Variables:
 •	EstimatedSalary
 
 
-Categorical Explanatory Variables:
+##### Categorical Explanatory Variables:
 
 •	Occupation
 
