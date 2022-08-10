@@ -9,7 +9,7 @@ Retention Rate is an indication of how good is your product market fit (PMF). If
 
 
 Churn quantifies the number of customers who have unsubscribed or cancelled their service contract. Customers turning their back to your service or product are no fun for any business. It is very expensive to win them back once lost, not even thinking that they will not do the best word to mouth marketing if unsatisfied.
-The most important question arises is how we can predict customer churn? The basic layer for predicting future customer churn is data from the past. We look at data from customers that already have churned (response) and their characteristics / behaviour (predictors) before the churn happened. By fitting a statistical model that relates the predictors to the response, we will try to predict the response for existing customers. This method belongs to the supervised learning category, just in case you needed one more buzzing expression
+The most important question arises is how we can predict customer churn? By fitting a statistical model that relates the predictors to the response, we will try to predict the response for existing customers. This method belongs to the supervised learning category.
 
 
 ### Working
